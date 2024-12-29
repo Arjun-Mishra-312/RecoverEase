@@ -1,4 +1,4 @@
-# Lost and Found Management System
+# RecoverEase
 
 ## Table of Contents
 
