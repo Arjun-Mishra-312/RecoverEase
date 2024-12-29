@@ -28,7 +28,7 @@ The Lost and Found Management System streamlines the process of reporting and tr
 
 ## Technology Stack
 
-- **Backend**: Express.js and Node.js for server-side scripting to handle business logic and database interactions.
+- **Backend**: SQL, Express.js and Node.js for server-side scripting to handle business logic and database interactions.
 - **Frontend**: HTML for building a responsive and user-friendly interface.
 - **Database**: Oracle Relational Database Management System (RDBMS) to manage and store all application data securely and efficiently.
 - **Version Control**: Git for collaborative code management and tracking changes.
