@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Features](#features)
 - [Technology Stack](#technology-stack)<!-- - [Usage](#usage) --> <!-- - [Database Schema](#database-schema) - [Project Timeline](#project-timeline) -->
-- [Contributors](#contributors)
+<!-- - [Contributors](#contributors) -->
 <!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Introduction
