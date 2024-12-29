@@ -9,39 +9,49 @@
 <!-- - [Contributors](#contributors) -->
 <!-- - [Acknowledgments](#acknowledgments) -->
 
-## Introduction
+## **Introduction**  
+This project is developed as part of CPSC 304 at the University of British Columbia. The primary objective is to design and implement a comprehensive Lost and Found management system tailored for a university campus.  
 
-This project is developed as part of **CPSC 304** at the **University of British Columbia**. The main objective is to create a comprehensive Lost and Found management system for a university campus.
+---
 
-## Project Description
+## **Project Description**  
+The Lost and Found Management System streamlines the entire process of managing lost and found items on campus. It enables users to report and track lost items, log found items, and receive automated notifications when a potential match is identified based on shared attributes like item description and location. By leveraging advanced database operations and a responsive design, the system enhances the efficiency of traditional methods, reducing the time required to reunite items with their rightful owners.  
 
-The Lost and Found Management System streamlines the process of reporting and tracking lost items, logging found items, and notifying users when there is a potential match between lost and found items based on shared attributes like description and location. The goal of the system is to enhance the efficiency of the traditional Lost and Found process by reducing the time it takes to reunite items with their rightful owners.
+---
 
-## Features
+## **Features**  
+1. **User Management**  
+   - Users can register as either students or staff members and manage their profiles.  
 
-- **User Management**: Users can register as either students or staff members.
-- **Item Reporting**: Users can report lost or found items with detailed descriptions.
-- **Item Tracking**: The system keeps track of all reported items and their statuses.
-- **Notifications**: Users receive notifications when there is a potential match for their lost or found items.
-- **Claims**: Users can claim items, and the system updates the status accordingly.
-- **Admin Interface**: For managing categories, statuses, and other system configurations.
+2. **Item Reporting**  
+   - Report lost or found items with comprehensive descriptions, including categories, location, and date.  
 
-## Technology Stack
+3. **Item Tracking and Search**  
+   - Search for items using dynamic filters and track the status of reported items in real-time.  
 
-- **Backend**: SQL, Express.js and Node.js for server-side scripting to handle business logic and database interactions.
-- **Frontend**: HTML for building a responsive and user-friendly interface.
-- **Database**: Oracle Relational Database Management System (RDBMS) to manage and store all application data securely and efficiently.
-- **Version Control**: Git for collaborative code management and tracking changes.
+4. **Automated Notifications**  
+   - Users receive real-time notifications for **potential matches** based on item attributes, significantly improving reunification efficiency.  
 
-<!-- 
-By including our names and student numbers, we certify that the work in this project was performed solely by us.
+5. **Claims Management**  
+   - Users can claim items, and the system automatically updates the item's status to "Claimed."  
 
-## Acknowledgments
+6. **Analytics and Insights**  
+   - Advanced database operations, such as **aggregation**, **grouping**, and **dynamic queries**, provide insights like lost item counts by category or top categories per building.  
 
-- University of British Columbia, Vancouver
-- Department of Computer Science
+---
 
-Special thanks to our course instructors and TAs for their guidance.
+## **Technology Stack**  
 
-Please note that all code, scripts, and resources used in this project comply with the University's academic integrity policies. We have not used any unauthorized aids and have cited all external resources appropriately. -->
+- **Backend:** SQL, Express.js, Node.js – for robust server-side logic and database interactions.  
+- **Frontend:** HTML – for building a user-friendly and responsive interface.  
+- **Database:** Oracle Relational Database Management System (RDBMS) – ensuring secure and efficient data handling.  
+- **Version Control:** Git – enabling collaborative code development and streamlined change tracking.  
 
+---
+
+## **Key Functionalities Powered by SQL**  
+- **Aggregation and Analytics:** Query insights into lost item counts by category, or top categories per building using advanced **GROUP BY** and nested queries.  
+- **Dynamic Search and Updates:** Implement dynamic filters to search items or update item attributes.  
+- **User Reporting Insights:** Identify users who report items across all categories using division operations.  
+
+This system demonstrates the effective application of database design principles, SQL query optimization, and backend development techniques.
